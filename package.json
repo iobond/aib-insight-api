@@ -1,55 +1,27 @@
 {
-  "name": "insight-api",
-  "description": "A Bitcoin blockchain REST and web socket API service for Bitcore Node.",
-  "version": "0.4.3",
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "name": "aib-insight-api",
+  "description": "A Advanced Integrated Blockchain REST and web socket API service for Aibcore Node.",
+  "version": "0.4.4",
+  "repository": "git://github.com/iobond/aib-insight-api.git",
   "contributors": [
     {
-      "name": "Gustavo Cortez",
-      "email": "cmgustavo83@gmail.com"
-    },
-    {
-      "name": "Ivan Socolsky",
-      "email": "jungans@gmail.com"
-    },
-    {
-      "name": "Juan Ignacio Sosa Lopez",
-      "email": "bechilandia@gmail.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Mario Colque",
-      "email": "colquemario@gmail.com"
-    },
-    {
-      "name": "Patrick Nagurny",
-      "email": "patrick@bitpay.com"
-    },
-    {
-      "name": "Braydon Fuller",
-      "email": "braydon@bitpay.com"
+      "name": "AIB Community",
+      "email": "dev@aib.one"
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-api/issues"
+    "url": "https://github.com/iobond/aib-insight-api/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-api",
+  "homepage": "https://github.com/iobond/aib-insight-api",
   "license": "MIT",
   "keywords": [
-    "insight",
-    "insight api",
+    "aib insight",
+    "aib insight api",
     "blockchain",
-    "bitcoin api",
+    "aib api",
     "blockchain api",
     "json",
-    "bitcore"
+    "aibcore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,7 +33,7 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib": "^0.13.7",
+    "aibcore-lib": "^0.15.8",
     "bitcore-message": "^1.0.1",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
